@@ -47,9 +47,9 @@ export async function POST(req: NextRequest) {
         });
 
         await transporter.sendMail({
-          from: '"ImageKit Shop" <noreply@imagekitshop.com>',
+          from: '"Image Shop" <noreply@imagekitshop.com>',
           to: order.userId.email,
-          subject: "Payment Confirmation - ImageKit Shop",
+          subject: "Payment Confirmation - Image Shop",
           text: `
 Thank you for your purchase!
 
@@ -61,7 +61,7 @@ Order Details:
 - Price: $${order.amount.toFixed(2)}
 
 Your image is now available in your orders page.
-Thank you for shopping with ImageKit Shop!
+Thank you for shopping with Image Shop!
           `.trim(),
         });
       }

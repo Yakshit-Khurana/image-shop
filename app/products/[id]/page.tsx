@@ -78,7 +78,7 @@ export default function ProductPage() {
         key,
         amount,
         currency: "USD",
-        name: "ImageKit Shop",
+        name: "Image Shop",
         description: `${product.name} - ${variant.type} Version`,
         order_id: orderId,
         handler: function () {

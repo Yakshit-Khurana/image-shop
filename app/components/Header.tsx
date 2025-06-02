@@ -26,10 +26,10 @@ export default function Header() {
             href="/"
             className="btn btn-ghost text-xl gap-2 normal-case font-bold"
             prefetch={true}
-            onClick={() => showNotification("Welcome to ImageKit Shop", "info")}
+            onClick={() => showNotification("Welcome to Image Shop", "info")}
           >
             <Home className="w-5 h-5" />
-            ImageKit Shop
+            Image Shop
           </Link>
         </div>
         <div className="flex flex-1 justify-end px-2">
