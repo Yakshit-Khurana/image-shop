@@ -14,6 +14,10 @@
  - Razorpay
  - NextAuth
 
+# TEST CREDENTIALS
+Email: yakshit@gmail.com
+Password: yakshit
+
 # Installation:
  1. Clone the repository
  2. Install dependencies: npm install
